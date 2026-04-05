@@ -1,0 +1,27 @@
+{
+  "name": "sample-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "mail:server": "node scripts/mail-server.js",
+    "test:scenario": "playwright test"
+  },
+  "dependencies": {
+    "mailparser": "^3.9.6",
+    "next": "^14.2.5",
+    "nodemailer": "^8.0.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "smtp-server": "^3.18.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.8.3"
+  }
+}
